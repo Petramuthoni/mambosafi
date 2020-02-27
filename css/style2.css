@@ -1,0 +1,123 @@
+div.wrapper{
+	margin-top: 40px;
+}
+
+h3{
+	color:#002d74;
+}
+
+/*----------------------------------------------------*/
+/* Blog Post
+------------------------------------------------------ */
+.card{
+	border: none;
+	border-radius: 0;
+	margin: 0 !important;
+}
+
+div.card-meta{
+	
+}
+
+img.card-img-top{
+	display: block;
+	margin-bottom: 20px;
+}
+
+h2.post-title{
+	text-align: center;
+	padding: 5px 0 10px 0;
+	color:#002d74;
+
+}
+
+p.meta{
+	text-align: center;	
+	/*margin: 30px 0 0 0;*/
+	padding: 0;
+	margin: 0;
+}
+
+p span.category,span.post-date{
+	color: #011c46;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	font-size: 11px;
+	
+
+}
+
+p.dark-blue{
+	color: #7b7c7f;
+}
+
+
+/*----------------------------------------------------*/
+/* Search
+------------------------------------------------------ */
+div.side-bar{
+	background-color: #f7f7f7;
+	color: #333333;
+	padding: 0px 30px;
+}
+
+input.search-bar,button.search-btn{
+	padding: 15px 20px;
+	background-color:#e5e5e5;
+	border-color:#e5e5e5;
+	outline: none;
+	border: none;
+}
+
+i.fa.fa-search:hover{
+	color:#f8f8f8;
+}
+
+/*----------------------------------------------------*/
+/* category List
+------------------------------------------------------ */
+
+div.category-list{
+	padding-bottom: 40px;
+	padding-top: 20px;
+	color:#002d74;
+}
+
+ul nav.blog{
+	list-style: circle;
+	padding-left: 20px;
+}
+a.nav-link.blog {
+    color: #002d74;
+	
+}
+
+/*----------------------------------------------------*/
+/* Recent Post
+------------------------------------------------------ */
+div.recent-post{
+	padding-top: 20px;
+
+}
+article.recent-post{
+	margin: 10px 0 20px 0;
+
+}
+div.post-thumb{
+	display: inline-block;
+
+}
+
+a img.post-thumb{
+	width: 140px;
+}
+
+a h5.recent-post{
+	font-size: 1rem;
+	margin-left: 10px;
+	color:#002d74;
+}
+
+a h5.recent-post:hover{
+
+}
